@@ -10,6 +10,11 @@ public class K20190320 extends AppCompatActivity {
         super.onResume();
     }
 
+    @Override //백그라운드재생
+    protected void onPause() {
+        super.onPause();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
