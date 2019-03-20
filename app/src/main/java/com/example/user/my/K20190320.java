@@ -6,6 +6,11 @@ import android.os.Bundle;
 public class K20190320 extends AppCompatActivity {
 
     @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_k20190320);
